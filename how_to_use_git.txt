@@ -1,0 +1,24 @@
+git--version 깃 버젼 확인
+
+----초기설정 ----
+git config --global user.name 유저이름
+(--global << 컴퓨터 전체)
+git config --global user.email 이메일
+
+(이제 git을 사용할 수 있는 상태가 됨.)
+
+폴더 이동
+cd 저장위치
+(cd = change directory 라는 뜻)
+cd C:\Users\user\source(파일 위치)
+
+git clone 깃허브 주소
+-위치에 repository 가 동기화.
+
+cd Git-Tutorial
+
+git add 파일이름.확장자
+
+git commit -m "설명 부착"
+
+git push
